@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX3491E
+D Full Duplex RS422/485 Tranceiver, 3V3 Supply, 10Mbps, Slew Rate Limited, 15kV ESD, SOIC-14
+K Full Duplex RS422/485 Tranceiver, 3V3 Supply, 12Mbps, Slew Rate Limited, 15kV ESD, SOIC-14
+$ENDCMP
+#
+#End Doc Library

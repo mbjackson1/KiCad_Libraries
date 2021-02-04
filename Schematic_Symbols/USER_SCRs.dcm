@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Q_SCR_AGK
+D Silicon controlled rectifier, anode/gate/cathode
+K SCR thyristor
+F ~
+$ENDCMP
+#
+$CMP Q_SCR_AKG
+D Silicon controlled rectifier, anode/cathode/gate
+K SCR thyristor
+F ~
+$ENDCMP
+#
+$CMP Q_SCR_GAK
+D Silicon controlled rectifier, gate/anode/cathode
+K SCR thyristor
+F ~
+$ENDCMP
+#
+$CMP Q_SCR_GKA
+D Silicon controlled rectifier, gate/cathode/anode
+K SCR thyristor
+F ~
+$ENDCMP
+#
+$CMP Q_SCR_KAG
+D Silicon controlled rectifier, cathode/anode/gate
+K SCR thyristor
+F ~
+$ENDCMP
+#
+$CMP Q_SCR_KGA
+D Silicon controlled rectifier, cathode/gate/anode
+K SCR thyristor
+F ~
+$ENDCMP
+#
+#End Doc Library

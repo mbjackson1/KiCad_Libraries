@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO1540
+D I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8
+K digital isolator i2c
+F http://www.ti.com/lit/ds/symlink/iso1541.pdf
+$ENDCMP
+#
+$CMP Optocoupler_Quad_ACPL-247
+D DC Quad Optocoupler, SOIC16
+K NPN DC Quad Optocoupler
+$ENDCMP
+#
+#End Doc Library

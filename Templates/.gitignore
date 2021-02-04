@@ -1,0 +1,35 @@
+# Ignore list for KiCAD Projects
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+*.xml
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Other output files
+*.pdf
+*.svg
+*.dxf
+*.plt
+*.ps
+
+# Outputs folder
+Outputs/
+/Template Project/Template Project
+
+

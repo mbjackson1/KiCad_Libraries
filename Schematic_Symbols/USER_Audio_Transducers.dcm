@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Speaker
+D Speaker
+K speaker sound
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA826
+D Precision, Rail to Rail Output, 3V - 36V Supply, Instrumentation Amplifier, Gain 1 to 1000
+K instrumentation opamp
+$ENDCMP
+#
+#End Doc Library

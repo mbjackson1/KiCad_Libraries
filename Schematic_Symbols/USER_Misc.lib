@@ -1,0 +1,78 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CircuitBreaker
+#
+DEF CircuitBreaker CB 0 20 Y Y 1 F N
+F0 "CB" 125 -50 50 H V L CNN
+F1 "CircuitBreaker" 125 25 50 H V L CNN
+F2 "" 50 -75 50 H I C CNN
+F3 "" 50 -75 50 H I C CNN
+DRAW
+A 0 0 90 -563 563 0 1 0 N 50 -75 50 75
+C 0 -75 25 0 1 0 N
+C 0 75 25 0 1 0 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Electromagnetic_Actor
+#
+DEF Electromagnetic_Actor L 0 1 N N 1 F N
+F0 "L" 50 150 50 H V L CNN
+F1 "Electromagnetic_Actor" 50 -50 50 H V L CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+S -100 100 100 0 0 1 10 N
+P 2 0 1 10 -50 100 50 0 N
+X - 1 0 200 100 D 50 50 1 1 P
+X + 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Motor_DC
+#
+DEF Motor_DC M 0 0 N N 1 F N
+F0 "M" 100 100 50 H V L CNN
+F1 "Motor_DC" 100 -200 50 H V L TNN
+F2 "" 0 -90 50 H I C CNN
+F3 "" 0 -90 50 H I C CNN
+DRAW
+C 0 -60 117 0 0 10 N
+P 4 0 0 0 -50 -170 -50 -200 50 -200 50 -170 N
+P 4 0 0 0 -50 50 -50 80 50 80 50 50 N
+P 5 0 0 0 -50 -130 -50 20 0 -80 50 20 50 -130 N
+P 2 0 1 0 0 80 0 100 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMPS_Isolated_DC-DC
+#
+DEF SMPS_Isolated_DC-DC U 0 40 N Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "SMPS_Isolated_DC-DC" 0 350 50 H V C CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+S -400 200 400 -200 0 1 6 f
+P 2 0 1 6 0 -125 0 -175 N
+P 2 0 1 6 0 -50 0 -100 N
+P 2 0 1 6 0 25 0 -25 N
+P 2 0 1 6 0 100 0 50 N
+P 3 0 1 6 0 175 0 150 0 125 N
+X V_IN+ ~ -500 100 100 R 50 50 0 0 W
+X V_IN- ~ -500 -100 100 R 50 50 0 0 W
+X V_OUT+ ~ 500 100 100 L 50 50 0 0 w
+X V_OUT- ~ 500 -100 100 L 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

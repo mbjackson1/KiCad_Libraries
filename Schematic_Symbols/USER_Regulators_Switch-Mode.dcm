@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMR16006
+D LMR16006 synchronous step-down voltage converter, 600mA, 4-60V Input, SOT-23
+$ENDCMP
+#
+$CMP TPS54202
+D TPS54202 synchronous step-down voltage converter 2A SOT-23
+$ENDCMP
+#
+$CMP TRACO_TMR3_Series_Dual_Output
+D 3W Isolated DC-DC converter, SIP8, Dual Output
+$ENDCMP
+#
+#End Doc Library

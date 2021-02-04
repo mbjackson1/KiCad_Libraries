@@ -1,0 +1,123 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Q_NPN_BCE
+D NPN transistor, base/collector/emitter
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_BCEC
+D NPN transistor, base/collector/emitter, collector connected to mounting plane
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D NPN transistor, base/emitter/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_BEC_BRT
+D NPN bias resistor transistor, base/emitter/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_CBE
+D NPN transistor, collector/base/emitter
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_CEB
+D NPN transistor, collector/emitter/base
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_EBC
+D NPN transistor, emitter/base/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECB
+D NPN transistor, emitter/collector/base
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECBC
+D NPN transistor, emitter/collector/base, collector connected to mounting plane
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECB_BRT
+D NPN transistor, emitter/collector/base
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_BCE
+D PNP transistor, base/collector/emitter
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_BCEC
+D PNP transistor, base/collector/emitter, collector connected to mounting plane
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_BEC
+D PNP transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_BEC_BRT
+D PNP bias resistor transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_CBE
+D PNP transistor, collector/base/emitter
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_CEB
+D PNP transistor, collector/emitter/base
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_EBC
+D PNP transistor, emitter/base/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_ECB
+D PNP transistor, emitter/collector/base
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_ECBC
+D PNP transistor, emitter/collector/base, collector connected to mounting plane
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_ECB_BRT
+D PNP bias resistor transistor, emitter/collector/base
+K transistor PNP
+F ~
+$ENDCMP
+#
+#End Doc Library
