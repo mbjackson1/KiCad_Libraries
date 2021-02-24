@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LMR14050
+D Simple Switcher Step Down Converter, 40V Input, 5A Output, HSOIC8
+$ENDCMP
+#
 $CMP LMR16006
 D LMR16006 synchronous step-down voltage converter, 600mA, 4-60V Input, SOT-23
 $ENDCMP

@@ -48,6 +48,12 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP Fuse_Resettable_PTC_Polyfuse
+D Resettable fuse, polymeric positive temperature coefficient
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
+$ENDCMP
+#
 $CMP Inductor
 D Inductor
 K inductor choke coil reactor magnetic

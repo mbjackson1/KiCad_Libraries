@@ -4,4 +4,9 @@ $CMP LM3525-L_Single_Port_USB_Power_Switch
 D Single Port USB Power Switch
 $ENDCMP
 #
+$CMP TPS2042B_Dual_Power_Switch
+D Dual power-distribution switcher
+K 2-chanel power-distribution USB
+$ENDCMP
+#
 #End Doc Library
