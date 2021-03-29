@@ -8,6 +8,16 @@ $CMP LMR16006
 D LMR16006 synchronous step-down voltage converter, 600mA, 4-60V Input, SOT-23
 $ENDCMP
 #
+$CMP LT8228
+D Bidirectional Synchronous 100V Buck/Boost Controller
+K Buck Boost Bidirectional
+$ENDCMP
+#
+$CMP LT8228EFE#PBF
+D Switching Voltage Regulators 100V Bidirectional with Protection Bidirectional Synchronous 100V Buck/Boost Controller with Reverse Supply, Reverse Current and Fault Protection
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8228.pdf
+$ENDCMP
+#
 $CMP TPS54202
 D TPS54202 synchronous step-down voltage converter 2A SOT-23
 $ENDCMP
