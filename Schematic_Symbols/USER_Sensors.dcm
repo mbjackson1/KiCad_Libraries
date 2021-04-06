@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Accelerometer_3-Axis_ADXL343
+D 3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14
+K 3-axis accelerometer i2c spi mems
+$ENDCMP
+#
 $CMP Current_Sensor_Honeywell_CSN
 D Honeywell CSN Series Closed Loop Current Sensor
 $ENDCMP

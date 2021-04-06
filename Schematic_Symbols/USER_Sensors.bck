@@ -4,6 +4,10 @@ $CMP Current_Sensor_Honeywell_CSN
 D Honeywell CSN Series Closed Loop Current Sensor
 $ENDCMP
 #
+$CMP Optical_Reflectance_Sensor_TCRT10x0
+D Vishay TCRT1000/TCRT1010 Reflective Optical Sensor with Transistor Output
+$ENDCMP
+#
 $CMP Resistor_Photo
 D Photoresistor
 K resistor variable light sensitive opto LDR
@@ -12,12 +16,6 @@ $ENDCMP
 #
 $CMP Rotary_Encoder_AEAT-601B
 D Broadcom rotary encoder, dual channel, incremental quadrate outputs, 5V nominal
-K rotary switch encoder
-F ~
-$ENDCMP
-#
-$CMP Rotary_Encoder_Active
-D Rotary encoder, dual channel, incremental quadrate outputs
 K rotary switch encoder
 F ~
 $ENDCMP
