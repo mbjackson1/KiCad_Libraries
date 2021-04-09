@@ -54,6 +54,10 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP RGB_LED_Common_Anode_RAGB
+D Common Anode RGB LED, 1 Red, 2 Common Anode, 3 Green, 4 Blue
+$ENDCMP
+#
 $CMP RGB_LED_Common_Anode_RGBA
 D Common Anode RGB LED, 1 Red, 2 Green, 3 Blue, 4 Common Anode
 $ENDCMP
